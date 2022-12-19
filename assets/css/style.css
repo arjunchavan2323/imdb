@@ -1,0 +1,63 @@
+
+
+
+body{
+	background-color:black;
+	
+}
+
+
+.moviecard img{
+	width:100%;
+	height:100%;
+	object-fit:cover;
+	
+}
+
+
+
+
+
+.moviecard{
+	height:650px;
+	margin:0;
+	position:relative;
+	overflow:hidden;
+
+	
+	
+	
+}
+
+
+
+.moviecard figcaption{
+	position:absolute;
+	bottom:0;
+	width:100%;
+	left:0;
+	
+}
+
+
+
+
+.moviecard .overview{
+	position:absolute;
+	bottom:-100%;
+	left:0;
+	width:100%;
+	transition:all .4s ease-in-out;
+	color:red;
+}
+
+
+
+.moviecard:hover .overview{
+	bottom:0;
+}
+
+
+.container-fluid1{
+	display:inline block;
+}
